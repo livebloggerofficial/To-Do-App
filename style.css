@@ -1,0 +1,80 @@
+body {
+  font-family: "Inter", sans-serif;
+  color: #023047;
+}
+
+.todo-container {
+  padding: 0 32px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.todo-container h1 {
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+}
+
+.controls {
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.controls input {
+  width: 100%;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+}
+
+.controls input:focus {
+  outline: 1px solid #023047;
+}
+
+.controls .add-btn {
+  padding: 0 32px;
+  font-size: 16px;
+  background: #023047;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.tasks-list {
+  padding: 24px 0;
+}
+
+.task {
+  display: flex;
+  gap: 12px;
+  background: #edf6f9;
+  margin: 8px 0;
+  padding: 8px 24px;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1.8;
+}
+
+.task .task-title {
+  flex: 1;
+}
+
+.task .complete-btn {
+  border: none;
+  background: transparent;
+  display: flex;
+  cursor: pointer;
+}
+
+.task .complete-btn svg {
+  width: 20px;
+}
+
+.task .remove-btn {
+  border: none;
+  background: transparent;
+  font-size: 30px;
+  color: red;
+  cursor: pointer;
+  rotate: 45deg;
+}
